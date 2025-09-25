@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:shoes_ecommerce/pages/cart_page.dart';
+import 'package:shoes_ecommerce/pages/shop_page.dart';
 import 'package:shoes_ecommerce/pages/welcome_page.dart';
 
 void main() {
@@ -16,6 +18,12 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.grey[100],
       ),
       home: WelcomePage(),
+      routes: {
+        '/welcome': (context) => WelcomePage(),
+        '/cart': (context) => CartPage(),
+        '/home': (context) => ShopPage(),
+        // other routes...
+      },
     );
   }
 }
