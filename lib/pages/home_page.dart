@@ -23,7 +23,7 @@ class _HomePageState extends State<HomePage> {
   }
 
   // pages to display
-  final List<Widget> pages = [const ShopPage(), const CartPage()];
+  final List<Widget> pages = [ShopPage(), const CartPage()];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -88,7 +88,7 @@ class _HomePageState extends State<HomePage> {
                     child: ListTile(
                       leading: Icon(Icons.info, color: Colors.white),
                       title: Text(
-                        "Cart",
+                        "About",
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
                           color: Colors.white,
