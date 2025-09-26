@@ -8,7 +8,7 @@ Includes product listings, cart functionality, and more.
 ## 📸 Screenshot
 
 <p align="center">
-  <img src="assets/images/nike_store.png" alt="Nike Store Screenshot" width="800" height="1000"/>
+  <img src="assets/images/nike_store.png" alt="Nike Store Screenshot" width="600" height="900"/>
 </p>
 
 ---
